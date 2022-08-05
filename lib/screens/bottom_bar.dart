@@ -1,6 +1,7 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_airline_app/screens/home_screen.dart';
+import 'package:flutter_airline_app/screens/search_screen.dart';
 
 class Bottom_Bar extends StatefulWidget {
   const Bottom_Bar({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class _Bottom_BarState extends State<Bottom_Bar> {
   var selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
-    Text("search"),
+    SearchScreen(),
     Text("Ticket"),
     Text("Accounts"),
   ];
